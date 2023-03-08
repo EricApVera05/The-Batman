@@ -25,11 +25,7 @@ color: red;
 .goodbye {
   width: 100%; height: 100%;
 }
-@media (max-width: 600px) and (orientation: landscape) {
-  body {
-    font-size: 12px;
-  }
-}
+
 .rataalada {
   width: 100%; height: 100%;
 }
@@ -69,4 +65,15 @@ th, td {
 }
 .spoilers {
   font-family: 'Padyakke Expanded One', cursive;
+}
+.carousel {
+  width: 60%;
+  margin: 0 auto;
+}
+/* Ajusta el ancho del carrusel al 60% */
+@media (max-width: 1024px) {
+  /* Aquí se agregan las reglas de estilo para pantallas con un ancho máximo de 1024 píxeles */
+  body {
+    font-size: 25%;
+  }
 }
